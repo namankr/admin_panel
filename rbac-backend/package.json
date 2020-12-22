@@ -1,0 +1,25 @@
+{
+  "name": "rbac",
+  "version": "1.0.0",
+  "description": "mentor crud api",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "keywords": [
+    "role",
+    "access",
+    "api"
+  ],
+  "author": "naman",
+  "license": "ISC",
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.6",
+    "multer": "^1.4.2"
+  }
+}
