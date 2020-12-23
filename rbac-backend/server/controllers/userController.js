@@ -164,9 +164,9 @@ exports.deleteMentor = async (req, res, next) => {
 exports.getMentors = async (req, res, next) => {
     try {
         const users = await User.find({ role: "Mentor" });
-        res.status(200).json({
-            data: users
-        });
+        res.status(200).json(
+            users
+        );
     } catch (error) {
         next(error)
     }

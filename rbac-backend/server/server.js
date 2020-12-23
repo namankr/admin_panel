@@ -17,7 +17,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 mongoose
-    .connect('mongodb://localhost:27017/rbac')
+    .connect('mongodb+srv://root:root@cluster0.mjzrf.mongodb.net/rbac')
     .then(() => {
         console.log('Connected to the Database successfully');
     });
